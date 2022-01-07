@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.2;
+pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
@@ -7,13 +7,13 @@ import "@openzeppelin/contracts/access/AccessControl.sol";
 import "./interfaces/IUniswapV2Factory.sol";
 import "./interfaces/IUniswapV2Router02.sol";
 
-contract ClicheCoin is ERC20, ERC20Burnable, AccessControl {
+contract StudioTime is ERC20, ERC20Burnable, AccessControl {
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
 
     IUniswapV2Router02 public uniswapV2Router;
     address public pancakeV2Pair;
 
-    constructor() ERC20("Cliche", "CLICHE") {
+    constructor() ERC20("Studio Time", "STUDIO") {
         _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
         _grantRole(MINTER_ROLE, msg.sender);
 
