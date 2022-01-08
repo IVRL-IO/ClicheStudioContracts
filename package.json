@@ -1,0 +1,30 @@
+{
+  "name": "cliche-erc-20",
+  "version": "1.0.0",
+  "description": "Cliche an in game currency used by all of our games",
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IVRL-IO/Cliche-ERC-20.git"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart",
+    "contracts",
+    "erc-20",
+    "cliche"
+  ],
+  "author": "IVRL Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IVRL-IO/Cliche-ERC-20/issues"
+  },
+  "homepage": "https://github.com/IVRL-IO/Cliche-ERC-20#readme",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.4.0"
+  }
+}

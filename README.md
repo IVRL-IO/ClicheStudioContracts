@@ -1,2 +1,3 @@
-# Cliche-ERC-20
-Cliche an in game currency used by all of our games!
+# Contracts for Cliche & Studio Time
+
+Contracts work on Binance Smart Chain. Creates Pancake Swap Pairs.
